@@ -1,0 +1,23 @@
+*{ margin: 0%; padding: 0%;}
+
+body { background-image: linear-gradient(to right top,rgb(255, 255, 255),white,rgb(163, 159, 159)); 
+   background-repeat: no-repeat;}
+  
+#navbar{
+    z-index: 20;
+    position: sticky;
+    top: 0;
+}
+.navbar-brand {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.navbar-brand span{
+    font-family: sans-serif;
+    color: rgb(223, 27, 27);
+}
+@media only screen and (max-width: 700px){
+    #navbar .nav-link{
+        text-align: center;
+      }
+}

@@ -1,0 +1,457 @@
+*{ margin: 0%; padding: 0%;}
+
+body { background-image: linear-gradient(to right top,rgb(255, 255, 255),white,rgb(163, 159, 159));
+   background-repeat: no-repeat;}
+
+#navbar{
+    z-index: 20;
+    position: sticky;
+    top: 0;
+}
+.navbar-brand {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.navbar-brand span{
+    font-family: sans-serif;
+    color: rgb(223, 27, 27);
+}
+.headstart{
+    padding: 5%;
+}
+.headstart h1{
+    font-size: 60px;
+    font-weight: 600 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media only screen and (max-width: 600px){
+    .headstart h1{
+        width: 100%;
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width: 750px){
+    .headstart h1{
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .headstart h1{
+        width: 40%;
+    }
+}
+
+.headstart p{
+    color: gray;
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px){
+    .headstart p{
+        width: 100%;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 750px){
+    .headstart p{
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .headstart p{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 720px){
+    .logobrand img{
+        width: 30%;
+        float: none;
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width: 680px){
+    .logobrand img{
+        width: 30%;
+        float: none;
+        margin-left: 30%;
+    }
+}
+@media only screen and (min-width: 700px){
+    .logobrand img{
+        width: 30%;
+        float: right;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .logobrand img{
+        width: 30%;
+        float: right;
+        margin-right: 15%;
+    }
+}
+
+#getstartbtn{
+    font-size: 20px;
+    font-weight: 500;
+}
+#donatebtn{
+    font-size: 20px;
+    font-weight: 500;
+}
+#getstartbtn:hover{
+    color: rgb(219, 43, 43);
+}
+#donatebtn:hover{
+    background-color: rgb(219, 43, 43);
+}
+
+@media only screen and (max-width: 600px){
+    #getstartbtn{
+        width: 100%;
+        float: none;
+    }
+    #donatebtn{
+        width: 100%;
+        float: none;
+    }
+    .v1 p{
+        text-align: center;
+    }
+    #cardbtn{
+        margin-left: 30%;
+    }
+    .card-deck img{
+      display: none;
+    }
+    .card-deck h5{
+        text-align: center;
+    }
+    .card-deck p{
+      text-align: center;
+    }
+}
+@media only screen and (max-width: 670px){
+    #getstartbtn{
+        width: 100%;
+        float: none;
+    }
+    #donatebtn{
+        width: 100%;
+        float: none;
+    }
+    .card-deck p{
+        width: 100%;
+     }
+}
+@media only screen and (min-width: 770px){
+    #getstartbtn{
+        width: 50%;
+        float: none;
+    }
+    #donatebtn{
+        width: 50%;
+        float: none;
+}
+.card-deck p{
+    width: 100%;
+ }
+}
+@media only screen and (min-width: 870px){
+    #getstartbtn{
+        width: 40%;
+        float: none;
+    }
+    #donatebtn{
+        width: 40%;
+        float: none;
+}
+.card-deck p{
+    width: 100%;
+ }
+}
+@media only screen and (min-width: 970px){
+    #getstartbtn{
+        width: 50%;
+        float: none;
+    }
+    #donatebtn{
+        width: 50%;
+        float: none;
+}
+.card-deck{
+    width: 50%;
+}
+.card-deck p{
+    width: 100%;
+ }
+}
+
+.v1 p{
+    color: gray;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.card-deck{
+    margin-top: 50px;
+}
+.card-deck p{
+    font-size: 15px;
+ }
+ .card-deck .card{
+     background: transparent;
+ }
+
+ .fightcovid{
+     padding: 5%;
+ }
+.fightcovid h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fightcovid h2{
+    color: gray;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.fightcovid p{
+    color: gray;
+    font-size: 16px;
+}
+@media only screen and (max-width: 700px){
+    .fightcovid img{
+       width: 15%;
+       margin-left:40%;
+   }
+   .fightcovid h1{
+       font-size: 30px;
+       text-align: center;
+   }
+   .fightcovid h2{
+    font-size: 20px;
+    text-align: center;
+}
+.fightcovid p{
+    font-size: 15px;
+    text-align: center;
+}
+.covidtreatment img{
+    width: 15%;
+    margin-left:40%;
+}
+.covidtreatment h1{
+    font-size: 30px;
+    text-align: center;
+}
+.covidtreatment h2{
+    font-size: 20px;
+    text-align: center;
+}
+.covidtreatment p{
+    font-size: 15px;
+    text-align: center;
+}
+}
+@media only screen and (min-width: 700px){
+    .fightcovid img{
+       width: 20%;
+   }
+   #fight-btn{
+    width: 30%;
+}
+.fightcovid h2{
+    width: 80%;
+}
+.fightcovid p{
+    width: 90%;
+ }
+.covidtreatment img{
+    width: 20%;
+}
+.covidtreatment h2{
+    width: 80%;
+}
+.covidtreatment p{
+    width: 90%;
+}
+}
+
+@media only screen and (min-width: 800px){
+     .fightcovid img{
+        width: 15%;
+    }
+    #fight-btn{
+        width: 30%;
+    }
+    .fightcovid h2{
+       width: 80%;
+    }
+    .fightcovid p{
+        width:80%;
+     }
+     .fightcovid video{
+    width: 70%;
+    }
+    .covidtreatment img{
+        width: 15%;
+    }
+    .covidtreatment h2{
+        width: 80%;
+    }
+    .covidtreatment p{
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .fightcovid img{
+       width: 10%;
+   }
+   #fight-btn{
+    width: 20%;
+}
+.fightcovid p{
+    width: 40%;
+ }
+ .covidtreatment img{
+    width: 10%;
+}
+.covidtreatment p{
+    width: 40%;
+}
+}
+
+/*video*/
+.washvid{
+    padding: 5%;
+    position: relative;
+}
+@media only screen and (max-width: 700px){
+    .washvid video{
+        width: 100%;
+    }
+    #navbar .nav-link{
+      text-align: center;
+    }
+}
+@media only screen and (min-width: 700px){
+    .washvid video{
+       width: 70%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .washvid video{
+       width:35%;
+       position: absolute;
+       bottom: 120%;
+       margin-left: 54%;
+    }
+    .fightcovid h2{
+        width: 50%;
+    }
+    .covidtreatment h2{
+        width: 50%;
+    }
+}
+
+/*covidtreatment*/
+.covidtreatment h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.covidtreatment h2{
+    color: gray;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.covidtreatment p{
+    color: gray;
+    font-size: 16px;
+}
+
+/*treatments*/
+@media only screen and (max-width: 700px){
+   .treatments img{
+      width:100%;
+   }
+}
+@media only screen and (min-width: 700px){
+    .treatments img{
+        width:70%;
+     }
+}
+@media only screen and (min-width: 1000px){
+   .treatments img{
+       width:35%;
+       position: absolute;
+       bottom:30%;
+       margin-left: 54%;
+    }
+}
+
+/*footer*/
+.footer{
+    background-color: rgba(233, 232, 232, 0.384);
+    padding: 30px;
+}
+.footer-item a{
+    color: rgb(82, 81, 81);
+}
+.link-item{
+   list-style-type: none;
+}
+.footer-item{
+    display: inline;
+    padding: 6px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.footer-p{
+    padding: 6px;
+}
+
+.footer-p p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.footer-p p a{
+    color: black;
+    font-weight: bold;
+}
+@media only screen and (max-width: 700px){
+    .link-item{
+        text-align: center;
+    }
+    .footer p{
+        text-align: center;
+    }
+    .footer{
+        padding: 2%;
+    }
+    }
+
+#spin{
+    visibility: hidden;
+}
+#spin1{
+    visibility: hidden;
+}
+#spin2{
+    visibility: hidden;
+}
+#spin3{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 700px){
+   #spin{
+       margin-left: 47%;
+   }
+   #spin1{
+    margin-left: 47%;
+}
+#spin2{
+    margin-left: 47%;
+}
+#spin3{
+    margin-left: 47%;
+}
+ }
+
+ 

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SavePal ∙ Online Web Donation </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="pic/logoNav.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+     <!-- jQuery and JS bundle w/ Popper.js -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--navbar-->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand"  href="https://www.savepal.ga/">
+            <img src="pic/logoNav.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            <span>Save</span>PAL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" onclick="home()">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Funds</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">About Us</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <div class="logobrand">
+        <img href="https://www.savepal.ga/" src="pic/logobrand.png" width="350">
+    </div>
+      <div class="headstart">
+        <h1>Let's donate and spread our love</h1>
+        <p>Be a thinker, be a Do-er, be a Donor, you could change 9 lives.
+           This website is to inform all people that we need to
+            help each other to fight against novel corona virus disease,
+            especially at this kind of crisis and in any calamity.
+             </p>
+
+             <div class="buttons1">
+                <button id="getstartbtn"  type="button" class="btn btn-secondary btn-block">Get Started</button>
+               <button id="donatebtn"  type="button" class="btn btn-outline-secondary btn-block" onclick="donate = setTimeout(donate,2000)">Donate</button>
+            </div>
+            <div class="v1">
+              <p>Currently v1.1.2 BETA</p>
+          </div>
+          <div class="card-deck">
+            <div class="card">
+              <img src="pic/airports.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">PH Travel Advisory</h5>
+                <p class="card-text">Land, air, and sea travel of uniformed personnel for official business, especially those transporting medical supplies, laboratory specimens, related to COVID-19, and other humanitarian assistance, shall be allowed.</p>
+                <a id="cardbtn" href="#" class="btn btn-outline-secondary">For more info</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="pic/PRD.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">President Duterte</h5>
+                <p class="card-text">The Philippine leader spent a good portion of the three minutes allotted to him talking about COVID-19 vaccines, urging APEC members to "ensure the unimpeded flow of medical supplies and technologies."</p>
+                <a id="cardbtn" href="#" class="btn btn-outline-secondary">For more info</a>
+              </div>
+            </div>
+          </div>
+            </div>
+
+            <div>
+              <div class="fightcovid">
+                <img id="stopcovid1" src="pic/stopcovid.png">
+
+                  <h1>Let's fight Covid</h1>
+                  <h2>Stay home, stay safe, break the chain and
+                    practice good hygiene.
+                  </h2>
+                   <p>How should I greet another person to avoid catching new
+                     coronavirus?<br>To prevent COVID-19 it is safest to avoid physical
+                     contact when greeting. Safe greetings include a wave, a nod, or a bow.
+                   </p>
+                  <div>
+                   <button id="fight-btn" type="button" class="btn btn-outline-secondary btn-block" onclick="fight = setTimeout(fight,2000),
+                    spin()">Let's fight COVID-19</button>
+
+                   <div id="spin" class="spinner-grow spinner-grow-sm" role="status">
+                    <span class="sr-only">Loading...</span>
+
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="washvid">
+                <video width="300" controls>
+                   <source src="vid/Hand-washing Steps Using the WHO Technique - YouTube.mkv" type="video/mp4">
+                </video>
+
+                <div>
+                  <div class="covidtreatment">
+                    <img src="pic/covidtreatment01.png">
+
+                    <!--treatment-->
+                      <h1>COVID-19 Treatments</h1>
+                      <h2>What helps, what doesn't, and what's in the pipeline.
+                      </h2>
+                       <p>Most people who become ill with COVID-19 will be able to recover at home.
+                         Some of the same things you do to feel better if you have the flu getting enough rest,
+                         staying well hydrated, and taking medications to relieve fever and aches and
+                         pains also help with COVID-19.
+                       </p>
+                      <div>
+                       <button id="fight-btn" type="button" class="btn btn-outline-secondary btn-block" onclick="treatment =
+                        setTimeout(treatment,2000),spin1()">See treatments</button>
+                        <div id="spin1" class="spinner-grow spinner-grow-sm" role="status">
+                          <span class="sr-only">Loading...</span>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="treatments">
+                    <img src="pic/covidtreatment2.png">
+                  </div>
+              </div>
+
+
+              <div class="fightcovid">
+                <img id="stopcovid1" src="pic/factscovid.png">
+
+                  <h1>COVID-19 facts</h1>
+                  <h2>These facts come from the World Health
+                    Organization.
+                  </h2>
+                   <p>COVID-19 (more specifically, a coronavirus) is the disease identified as
+                     the cause of an outbreak of respiratory illness first detected in Wuhan, China.
+                   </p>
+                  <div>
+                   <button id="fight-btn" type="button" class="btn btn-outline-secondary btn-block" onclick="fact =
+                   setTimeout(fact,2000),spin2()">See all facts</button>
+                   <div id="spin2" class="spinner-grow spinner-grow-sm" role="status">
+                    <span class="sr-only">Loading...</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="washvid">
+                <video width="300" controls>
+                   <source src="vid/COVID-19- The Facts.mkv" type="video/mp4">
+                </video>
+
+                <div>
+                  <div class="covidtreatment">
+                    <img src="pic/signssymptomslogo.png">
+
+                    <!--treatment-->
+                      <h1>COVID-19 Symptoms</h1>
+                      <h2>Symptoms of Coronavirus
+                      </h2>
+                       <p>People with COVID-19 have had a wide range of symptoms reported
+                        ranging from mild symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus.
+                        People with these symptoms may have COVID-19:
+                       </p>
+                      <div>
+                       <button id="fight-btn" type="button" class="btn btn-outline-secondary btn-block" onclick="symptom =
+                        setTimeout(symptom,2000),spin3()">See all symptoms</button>
+                        <div id="spin3" class="spinner-grow spinner-grow-sm" role="status">
+                          <span class="sr-only">Loading...</span>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="treatments">
+                    <img src="pic/covidsymptoms1.png">
+                  </div>
+              </div>
+
+              <div id="footer">
+              <div class="footer">
+            <ul class="link-item">
+               <li class="footer-item">
+                 <a href="https://github.com/">GitHub</a>
+               </li>
+               <li class="footer-item">
+                <a href="https://www.facebook.com/login.php">Facebook</a>
+              </li>
+              <li class="footer-item">
+                <a href="https://edition.cnn.com/">News</a>
+              </li>
+              <li class="footer-item">
+                <a href="https://covid19.who.int/">WHO</a>
+              </li>
+              </ul>
+
+              <div class="footer-p">
+              <p>Designed and built with all the love in the Philippines by
+                <a href="mailto:palert.dev@gmail.com">Excel Deo R. Usman - Team PALert. </a>
+                  <br>Currently v1.1.2 BETA. New Updates: COVID Stats & Donate Page. <br>Still working at other calamity funds.</p>
+            </div>
+
+              </div>
+            </div>
+
+            <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
+            <script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script>
+            <script>window.addEventListener("load", function(){window.wpcc.init
+            ({"colors":{"popup":{"background":"#f6f6f6","text":"#000000","border":"#555555"},"button":{"background":"#555555","text":"#ffffff"}},"position":"bottom-right","corners":"small","padding":"small","margin":"small","transparency":"15","fontsize":"small"})});</script>
+
+<!--my functions-->
+<script src="js/function.js"></script>
+                       
+</body>
+</html>

@@ -1,0 +1,284 @@
+*{ margin: 0; padding: 0;
+box-sizing: border-box;
+}
+
+body { 
+ background-image:linear-gradient(to top right, white,white,rgba(155, 153, 153, 0.479)) ;
+ background-repeat: no-repeat;
+}
+  
+#navbar{
+    z-index: 20;
+    position: sticky;
+    top: 0;
+}
+.navbar-brand {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.navbar-brand span{
+    font-family: sans-serif;
+    color: rgb(223, 27, 27);
+}
+@media only screen and (max-width: 700px){
+    #navbar .nav-link{
+        text-align: center;
+      } 
+}
+
+.fight-covid{
+    padding: 5%;
+    background-image: url(pic/airports.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 10%;
+}
+
+.fight-covid h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px darkred;
+}
+
+
+@media only screen and (max-width: 700px){
+.fight-slogan h1{
+    font-size: 25px;
+    width: 100%;
+}
+.fight-covid{
+  width: 100%;
+}
+.fight-covid img{
+    width: 30%;
+    margin-left: 33%;
+}    
+.fight-slogan{
+    display: block;
+    text-align: center;
+}
+}
+
+
+
+.card-mask{
+  background-color: rgba(211, 211, 211, 0.5);
+  border-radius: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mask-slogan-img{
+    display: inline-flex;
+}
+.mask-slogan{
+    padding: 5%;
+}
+.mask-slogan h2{
+   font-weight: 600;
+   font-size: 2em;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mask-slogan p{
+    font-size: 20px;
+}
+.mask-slogan-img li {
+    font-size: 18px;
+    padding: 0.3%;
+    list-style-position: inside;
+}
+
+.mask-slogan button{
+    font-size: 18px;
+}
+.mask-slogan i{
+  margin-left: 5px;
+}
+.mask-slogan-img img{
+    width: 40%;
+}
+.content{
+    padding: 5%;
+    width: 100%;
+    display: inline-flex;
+}
+.progress{
+    margin: 10px;
+}
+.card-2{
+    padding: 4%;
+}
+
+#nav-fight{
+    margin: 10px;
+    background-color: rgba(211, 211, 211, 0.603);
+}
+#nav-fight a{
+    border-right: 2px solid #bbb;
+    color: rgb(73, 70, 70);
+}
+#nav-fight a:hover{
+    background-color: rgb(65, 64, 64);
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px){
+    .content{
+      width: 100%;
+      display: block;
+      margin-inline: 0;
+    }
+    .mask-slogan-img img{
+        width: 100%;
+    }
+    #nav-fight a{
+        width: 100%;
+        font-size: 10px;
+    }
+    .progress .progress-bar{
+        width: 100%;
+        font-size: 10px;
+    }
+    .mask-slogan button{
+        width: 100%;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .mask-slogan-img li{
+        list-style-position: inside;
+        width: 100%;
+        font-size: 15px;
+    }
+    .mask-slogan h2{
+        font-size: 20px;
+    }
+    .mask-slogan p{
+        font-size: 15px;
+    }
+    .mask-slogan-img{
+        display: block;
+    }
+    }
+  
+
+@media only screen and (max-width: 1200px){
+   .content{
+       display: block;
+       width: 100%;
+       margin-inline: 0;
+   }
+  
+}
+
+ 
+.vaccine-p{
+    list-style-type: none;
+    font-size: 20px;
+}
+.vaccine-p a{
+    color: black;
+}
+.card-2-p:hover{
+    background-color: rgba(180, 182, 182, 0.158);
+}
+.vaccine-p a:hover{
+    text-decoration: none;
+    color: black;
+}
+.card-2-p{
+    padding: 3%;
+    border-top: 1px solid teal;
+}
+.card-2-p a{
+    color: black;
+}
+.card-2-p a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+    .vaccine-p{
+        font-size: 15px;
+    }
+    .card-2-p{
+        border-top: 0;
+    }
+    .card-2 h3{
+      font-size: 20px;
+    }
+    .card-2{
+        border-bottom: 2px solid teal;
+        border-top: 2px solid teal;
+        margin-top: 15px;
+    }
+}
+
+
+.card-3-p{
+ margin-inline: 10%;
+ width: 30%;
+ border-top: 5px solid teal;
+}
+.card-3-p-li li{
+   list-style: none;
+   font-size: 20px;
+    width: 100%;
+    padding: 3%;
+    color: black;
+}
+.card-3-p-row{
+    font-family: sans-serif;
+}
+.card-3-p-li i{
+ color: gray;
+}
+
+.card-3-p-li a:hover{
+    text-decoration: none;
+}
+.card-3-p-li li:hover{
+    background-color: rgba(128, 128, 128, 0.171);
+    transition-delay: 0.1s;
+}
+.card-3{
+    display: flex;
+}
+
+@media only screen and (max-width:800px){
+    .card-3-p{
+      margin-inline: 0;
+       width: 100%;
+       border-top: none;
+       padding: 5%;
+    }
+    .card-3-p h3{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-3-p-li li{
+        font-size: 15px;
+    }
+    .card-3{
+        display: block;
+    }
+}
+@media only screen and (max-width: 1200px){
+   .card-3-p{
+       width: 100%;
+       margin-inline: 0;
+       padding: 5%;
+       border-top: none;
+   }
+   .card-3-p-li{
+       border-left: 3px solid teal;
+   }
+   .card-3-p h3{
+       font-weight: 700;
+   }
+}

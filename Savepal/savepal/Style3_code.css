@@ -1,0 +1,43 @@
+*{ margin: 0; padding: 0;
+box-sizing: border-box;}
+
+body { background-image: linear-gradient(to right top,rgb(255, 255, 255),white,rgb(163, 159, 159)); 
+   background-repeat: no-repeat;}
+  
+#navbar{
+    z-index: 20;
+    position: sticky;
+    top: 0;
+}
+.navbar-brand {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.navbar-brand span{
+    font-family: sans-serif;
+    color: rgb(223, 27, 27);
+}
+.navbar .fa{
+ color: white;
+ cursor: pointer;
+ margin:10px;
+}
+.fa .tooltipText{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    font-family: sans-serif;
+    font-size: 14px;
+    transition-delay: 0.3s;  
+    top: 80%;
+}
+
+.fa:hover .tooltipText{
+    visibility: visible;
+}
+
+@media only screen and (max-width: 700px){
+    #navbar .nav-link{
+        text-align: center;
+      } 
+}
